@@ -24,30 +24,27 @@ This repository contains a Streamlit application that generates blogs using the 
 2. Navigate to the project directory:
   ```sh
   cd blog-generator
-
+```
 3. Create and activate a virtual environment:
-
 ```sh
-
 python3 -m venv venv
 source venv/bin/activate
 
+```
 4. Install the required packages:
-
 ```sh
 pip install -r requirements.txt
-
+```
 5. Add your Hugging Face token:
-
 ```sh
 # Replace "your_hugging_face_token" with your actual token
 login(token="your_hugging_face_token")
+```
 Usage
-6. Run the Streamlit application:
-
+1. Run the Streamlit application:
 ```sh
 streamlit run app.py
- 7. Open the provided URL in your web browser.
+```
+2. Open the provided URL in your web browser.
 
-Enter the blog topic, specify the number of words, select the target audience, and click "Generate" to get the blog.
-
+3. Enter the blog topic, specify the number of words, select the target audience, and click "Generate" to get the blog.
